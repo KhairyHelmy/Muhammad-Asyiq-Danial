@@ -1,28 +1,37 @@
-
 package com.util;
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = System.getenv("DB_URL");
-    private static final String USER = System.getenv("DB_USER");
+    // Ambil tepat sama key yang kita set di Railway
+    private static final String URL      = System.getenv("DB_URL");
+    private static final String USER     = System.getenv("DB_USER");
     private static final String PASSWORD = System.getenv("DB_PASSWORD");
 
-    public static Connection getConnection() throws SQLException {
+    public static Connection getConnection() {
+        // Debug: tulis ke log untuk pastikan nilai tak null
+        System.out.println("? Connecting to DB_URL    = " + URL);
+        System.out.println("? Using DB_USER           = " + USER);
+        // (jangan log password)
+
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             System.err.println("MySQL JDBC Driver not found.");
             e.printStackTrace();
+            throw new RuntimeException(e);
         }
 
-        return DriverManager.getConnection(URL, USER, PASSWORD);
+        try {
+            Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            System.out.println("? Database connection established.");
+            return conn;
+        } catch (SQLException e) {
+            System.err.println("? Failed to connect to database: " + e.getMessage());
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
     }
 }
