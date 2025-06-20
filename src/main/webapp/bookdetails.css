@@ -1,0 +1,47 @@
+.remove {
+    text-decoration: none;
+  }
+        .container {
+            text-align: center;
+        }
+        .container-fluid {
+            padding: 20px;
+        }
+
+        /* Style for the divs */
+        .responsive-div {
+            padding: 20px;
+            margin: 50px;
+            /* text-align: center; */
+        }
+        .detailstitle{
+            display: inline-block;
+            /* background-color: #003166; */
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px; /* Add margin for spacing between divs */
+        }
+
+        .detailsbox{
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: whitesmoke;
+        }
+        .dynamic-bg {
+            display: inline-block;
+            background-color: #003166;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px; /* Add margin for spacing between divs */
+            min-width: 100px;
+        }
+        .whitesmoke-bg{
+            background-color: whitesmoke;
+        }
+        .roundedbox{
+          border-radius: 10px;
+        }
