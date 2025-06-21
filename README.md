@@ -1,4 +1,4 @@
-# Tutorial: Muhammad-Asyiq-Danial
+# Tutorial: CWMANS
 
 This project is a **Car Workshop Management System**. It provides a web interface where users can **book appointments** and manage workshop operations.
 It handles **user logins** and registrations, keeps track of **spare parts inventory**, and records **maintenance history** for vehicles, all while connecting to a **database** to store information.
