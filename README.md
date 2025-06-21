@@ -36,7 +36,7 @@ flowchart TD
 ## Chapters
 
 1. [Data Models
-](01_data_models_.md)
+](docs/01_data_models_.md)
 2. [Database Connection
 ](02_database_connection_.md)
 3. [Servlets (Request Handlers)
