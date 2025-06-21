@@ -35,22 +35,14 @@ flowchart TD
 
 ## Chapters
 
-1. [Data Models
-](docs/01_data_models_.md)
-2. [Database Connection
-](02_database_connection_.md)
-3. [Servlets (Request Handlers)
-](03_servlets__request_handlers__.md)
-4. [User Authentication & Registration
-](04_user_authentication___registration_.md)
-5. [Booking Management
-](05_booking_management_.md)
-6. [Inventory Management
-](06_inventory_management_.md)
-7. [Maintenance Record Keeping
-](07_maintenance_record_keeping_.md)
-8. [Build & Deployment Process
-](08_build___deployment_process_.md)
+1. [Data Models](docs/01_data_models_.md)
+2. [Database Connection](docs/02_database_connection_.md)
+3. [Servlets (Request Handlers)](docs/03_servlets__request_handlers__.md)
+4. [User Authentication & Registration](docs/04_user_authentication___registration_.md)
+5. [Booking Management](docs/05_booking_management_.md)
+6. [Inventory Management](docs/06_inventory_management_.md)
+7. [Maintenance Record Keeping](docs/07_maintenance_record_keeping_.md)
+8. [Build & Deployment Process](docs/08_build___deployment_process_.md)
 
 ---
 
