@@ -126,6 +126,11 @@
             <li><a href="Inventory.jsp">Maintenance</a></li>
             <li><a href="StartLogin.jsp">Logout</a></li>
         </ul>
+        
+        <form action="LogoutServlet" method="post" style="display:inline;">
+    <button type="submit">Logout</button>
+</form>
+
     </nav>
 
     <div class="container">

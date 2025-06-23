@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <Context path="/Car_Workshop_Management_System"/>
+=======
+<Context path="/Library_Management_System"/>
+>>>>>>> origin/master

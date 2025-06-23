@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bookdetails.css">
+    <link rel="stylesheet" href="mainpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="content white-text" style="background-color: #003166;"> <!-- Navigation-->
+      <a href="bookdetails3.html"></a>
+    
+    <h4 class="header">Universiti Malaysia Terengganu Library</h4>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-size: 20px;background-color:#003166 !important;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Homepage2.jsp">
+                <img src="logo2.png" alt="Logo" width="120" height="96" class="d-inline-block align-text-middle">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse rounded"  id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active white-text" aria-current="page" href="Homepage2.jsp">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white-text " href="about us.html" >About Us</a>
+              </li>
+              <li>
+                <a class="nav-link white-text " href="contact us.html" >Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle white-text" href="#" role="button" 
+                data-bs-toggle="dropdown" aria-expanded="false">Collection</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="book listing.html">Our Collection</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+              <a href="book listing.html" class="btn border me-2 white-text" style="background-color: #012a57;">Search</a>
+              <a href="login.html" class="btn border me-2 white-text" style="background-color: #012a57;">Login</a>
+            </form>
+            
+          </div>
+        </div>
+      
+      </nav>
+    </div> <!--End Navigation Div-->
+        <div class="container"><!--Title Start-->
+          <div class="detailstitle">
+          <h1><b><u>Book Details</u></b></h1>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <!-- Bootstrap grid system for responsiveness -->
+          <div class="row">
+  
+              <!-- First div, will be on top on smaller screens -->
+              <div class="col-sm-12 col-md-6 responsive-div whitesmoke-bg roundedbox">
+                  <h1>Title: Great Gatsby</h1>
+                  <h1>Author: F Scott Fitzgerald</h1>
+                  <h1>Summary</h1>
+                  <p>The Great Gatsby, third novel by F. Scott Fitzgerald, published in 1925 by Charles Scribner’s Sons. Set in Jazz Age New York, the novel tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth. Unsuccessful upon publication, the book is now considered a classic of American fiction and has often been called the Great American Novel.                  </p>
+                  <h1>Image: </h1>
+                  <img src="images/book 4.jpg" alt="image the bird" style="height: 600px; width: 400px;">
+              </div>
+  
+              <!-- Second div, will be next to the first div on larger screens -->
+              <div class="col-sm-12 col-md-4 responsive-div whitesmoke-bg roundedbox">
+                  <div class="container mt-4">
+                      
+                      <!-- Bootstrap table -->
+                      <table class="table">
+                          <thead>
+                              <tr>
+                                  <th scope="col">No</th>
+                                  <th scope="col">Barcode</th>
+                                  <th scope="col">Status</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <th scope="row">1</th>
+                                  <td>11140</td>
+                                  <td>BORROWED</td>
+                              </tr>
+                              <tr>
+                                  <th scope="row">2</th>
+                                  <td>11141</td>
+                                  <td>BORROWED</td>
+                              </tr>
+                              <!-- Add more rows as needed -->
+                          </tbody>
+                      </table>
+                  </div>
+  
+                  <div class="container">
+                      <!-- First centered div -->
+                      <div class="dynamic-bg">
+                          <h6>Borrow</h6>
+                      </div>
+              
+                      <!-- Second centered div -->
+                      <div class="dynamic-bg">
+                          <h6><a style="text-decoration: none; color: white;" href="book listing.html">Back</a></h6>
+                      </div>
+                  </div>
+  
+              </div><!-- 2nd Div End-->
+  
+          </div>
+      </div><!--End both table-->
+      <div class="end white-text"> <!--End Page-->
+        <!-- <h4>Connect With Us</h4>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
+        <div class="endcontainer">
+          <p>Connect With Us</p>
+          <a href="https://www.facebook.com">
+            <img src="facebook.png" alt="Your Image" width="50" height="50">
+        </a>
+        <a href="https://www.tiktok.com">
+         <img src="Tiktok.png" alt="Your Image" width="50" height="50">
+      </a>
+          <hr>
+        </div>
+        <div class="copyright">
+        <p>&copy; Kroni BabiTonton 2024. All rights reserved.</p>
+        </div>
+      </div> <!--End Page's End-->
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+
+</body>
+</html>
