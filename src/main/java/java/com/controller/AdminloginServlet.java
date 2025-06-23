@@ -1,4 +1,9 @@
-package com.controller;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package java.com.controller;
+
 
 import com.util.DBConnection;
 import java.io.IOException;
